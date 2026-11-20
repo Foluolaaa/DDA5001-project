@@ -1,0 +1,39 @@
+# Local environments, caches and editor state.
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.cache/
+node_modules/
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Runs and generated artifacts. The supplied data/*.bin and meta.pkl are tracked.
+runs/
+outputs/
+checks/
+setup-evidence/
+*.pt
+*.pth
+*.ckpt
+*.pt.sha256
+*.log
+*.tmp
+*.zip
+requirements-local-resolved.txt
+
+# Personal credentials and agent state.
+.env
+.env.*
+!.env.example
+.codex/
+.opencode/
+
+# 课程发的原始材料（从 Blackboard 下载，不入库以免二次分发）
+DDA5001_P1_Project_Handbook.pdf
+DDA5001_Workstation_Quick_Guide*.pdf
+handbook.txt
